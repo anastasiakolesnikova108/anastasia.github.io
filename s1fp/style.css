@@ -1,3 +1,61 @@
+@font-face {
+    font-family: 'Angelina';
+    src: url(Angelina-rnlA.otf) format('otf');
+  }
+
 body {
-    background-color: red;
+    background-image: linear-gradient(to right, rgb(53, 11, 85) , rgb(44, 38, 151)); 
+    margin: 0;
 }
+
+.box {
+    font-family: Angelina, Cursive;
+    height:  40px;
+    width: 180px;
+    background-color: #EDE0FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.flexbox1{
+    background-color: aliceblue;
+    display: flex;
+    /* margin: 20px; */
+    justify-content: space-evenly; 
+    align-items: center;
+    min-height: 40px;
+    flex-wrap: wrap; 
+    row-gap: 10px; 
+    column-gap: 1px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.col1 {
+    width: 25%;
+    min-width: 100px;
+    height: auto;
+}
+
+.fullwidth{
+    width: 100%;
+}
+
+.col2 {
+    width: 50%;
+}
+
+.col2 img {width: 100%;}
+
