@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gluten:wght@100..900&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Yellowtail&display=swap');
+body {
+    background-image: linear-gradient(to right, rgb(53, 11, 85) , rgb(44, 38, 151)); 
+    margin: 10px;
+}
+
+.box {
+    font-family: "Courgette";
+    height:  40px;
+    width: 180px;
+    background-color: #EDE0FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgb(136, 135, 234) , rgb(74, 60, 119));
+    padding: 20px;
+    width: 200px;
+    height: 20px;
+    text-shadow: .5px .5px;
+    box-shadow: #3100d1;
+    text-shadow: 0 0 3px #ad95c9
+}
+.flexbox1{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    min-height: 40px;
+    margin: 30px;
+    flex-wrap: wrap; 
+    row-gap: 10px; 
+    column-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.col1{
+    display: flex;
+    align-content: end;
+}
+
+.bodytext1 {
+font-size: 14px; 
+text-align: center;
+text-decoration: dashed;
+text-shadow: #ad95c9;
+color:#EDE0FB;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+
+
+}
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.col1 {
+    width: 25%;
+    min-width: 100px;
+    height: auto;
+}
+
+.fullwidth{
+    width: 100%;
+}
+
+.col2 {
+    width: 50%;
+}
+
+.col2 img {width: 100%;}
+
+a:link {
+    color: rgb(31, 10, 91);
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:hover {
+
+}
+
+a:visited {
+
+}
+
