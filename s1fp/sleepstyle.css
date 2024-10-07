@@ -27,55 +27,21 @@ body {
 
 .allboxes{
     display: flex;
-    /* margin: 60px; */
     align-items: center;
     min-height: 40px;
     margin: 30px;
     flex-wrap: wrap; 
-    row-gap: 10px; 
-    column-gap: 1px;
     justify-content: center;
     align-content: center;
     align-items: center;
 }
-.image1{
-    display:flex; 
-    align-items: center; 
-    justify-content: center;
-    max-height: 50px;
 
-
-}
-
-
-}
-
-.sailormoon{
+.spotify {
     display: flex;
-    /* margin: 60px; */
     align-items: center;
     min-height: 40px;
     margin: 30px;
-    flex-wrap: wrap; 
-    row-gap: 10px; 
-    column-gap: 1px;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    
-
 }
 
-.gif:first-child {
-    width: 0px;           
-    margin: 100px; 
-    \\\\
-}
-
-.image:last-child {
-    max-width: 500px;          
-    margin-bottom: 100;  
-    margin: 20px;
-} 
 
 
