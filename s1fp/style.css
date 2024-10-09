@@ -96,3 +96,12 @@ a:visited {
 
 }
 
+#webringleftnav {
+    width: 70px;
+    height: 40px;
+}
+
+.right-webring img{
+    width: 70px;
+    height: 40px;
+}
