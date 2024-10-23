@@ -1,0 +1,228 @@
+body {
+    background-image: url("skies.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    margin: 0;
+    width: 100vw;
+    /* min-height: 200vh; */
+    position: relative;
+}
+
+.heading {
+    position: absolute;
+    top: 1vw;
+    left: 23vw;
+    width: 60vw;
+    height: 40vw;
+}
+
+.heading img {
+    width: 100%;
+}
+
+.pretzel {
+    position: absolute;
+    top: 40vw;
+    left: 40vw;
+    width: 15vw;
+    height: 17vw;
+}
+
+.pretzel img {
+    width: 100%;
+}
+
+.pretzelpopup {
+    opacity: 0;
+    position: absolute;
+    top: 120vw;
+    left: 40vw;
+    width: 25vw;
+    height: 20vw;
+    text-align: justify;
+    color: red;
+}
+
+
+.bottle {
+    position: absolute;
+    top: 56vw;
+    left: 58vw;
+    width: 15vw;
+    height: 17vw;
+}
+
+.bottle img {
+    width: 100%;
+}
+
+.bottlepopup {
+opacity: 0;
+    position: absolute;
+    top: 120vw;
+    left: 40vw;
+    width: 30vw;
+    height: 17vw;
+    text-align: justify;
+    color: red;
+}
+
+.strawberry {
+    position: absolute;
+    top: 56vw;
+    right: 60vw;
+    width: 15vw;
+    height: 17vw;
+}
+
+.strawberry img {
+    width: 100%;
+}
+
+.strawberrypopup {
+    opacity: 0;
+    position: absolute;
+    top: 120vw;
+    text-align: justify;
+    left: 40vw;
+    width: 20vw;
+    color: red;
+
+    
+}
+
+.fries {
+    position: absolute;
+    top: 77vw;
+    right: 60vw;
+    width: 15vw;
+    height: 17vw;
+}
+
+.fries img {
+    width: 100%;
+}
+
+.friespopup {
+    opacity: 0;
+    position: absolute;
+    top: 120vw;
+    left: 45vw;
+    width: 5vw;
+    height: 5vw;
+    text-align: justify;
+    color: red;
+}
+
+.fries:hover ~ .friespopup {
+    opacity: 1;
+}
+
+.popcorn {
+    position: absolute;
+    top: 77vw;
+    left: 58vw;
+    width: 15vw;
+    height: 17vw;
+}
+
+.popcorn img {
+    width: 100%;
+}
+
+.popcornpopup {
+    opacity: 0;
+    position: absolute;
+    top: 120vw;
+    left: 40vw;
+    width: 15vw;
+    height: 17vw;
+    text-align-last: center;
+    color: red;
+}
+
+
+.icecream {
+    position: absolute;
+    top: 95vw;
+    left: 40vw;
+    width: 15vw;
+    height: 17vw;
+}
+
+.icecream img {
+    width: 100%;
+}
+
+.icecreampopup {
+    opacity: 0;
+    position: absolute;
+    top: 120vw;
+    left: 40vw;
+    width: 15vw;
+    height: 17vw;
+    text-align-last: center;
+    color: red;
+   
+}
+
+
+.icecream:hover ~ .icecreampopup {
+    opacity: 1;
+}
+
+.strawberry:hover ~ .strawberrypopup {
+    opacity: 1;
+}
+
+.strawberry:hover ~ .strawberrypopup1 {
+    opacity: 1;
+}
+
+.bottle:hover ~ .bottlepopup {
+    opacity: 1;
+}
+
+.pretzel:hover ~ .pretzelpopup {
+    opacity: 1;
+}
+
+.popcorn:hover ~ .popcornpopup {
+    opacity: 1;
+}
+
+.pretzel:active {
+    animation: rotate 8s linear infinite;
+}
+
+.bottle:active {
+    animation: rotate 8s;
+}
+
+.strawberry:active {
+    animation: rotate 8s;
+}
+
+.fries:active {
+    animation: rotate 8s;
+}
+.icecream:active {
+    animation: rotate 8s;
+}
+
+.popcorn:active {
+    animation: rotate 8s;
+}
+
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
